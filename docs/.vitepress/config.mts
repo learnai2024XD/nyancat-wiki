@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/learnai2024xd.github.io/', 
+  base: '/learnai2024xd.github.io/nyancat-wiki/', 
   title: "Nyan Cat Wiki",
   description: "A Cat Wiki",
   themeConfig: {
