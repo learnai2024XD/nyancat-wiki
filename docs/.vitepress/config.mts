@@ -2,6 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告123213',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
+  },
   base: '/nyancat-wiki/', 
   title: "Nyan Cat Wiki",
   description: "A Cat Wiki",

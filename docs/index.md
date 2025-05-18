@@ -23,3 +23,30 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+::: warning
+This is a warning.
+:::
+
+```js
+export default {
+  data () {
+    return {
+      msg: 'Focused!' // [!code focus]
+    }
+  }
+}
+```
+
+
+<!-- ![An image](/cat-demo.png) -->
+
+<script setup>
+import { withBase, useData } from 'vitepress'
+
+const { theme } = useData()
+</script>
+
+<template>
+  <img :src="withBase('/cat-demo.png')" />
+</template>
+12312
